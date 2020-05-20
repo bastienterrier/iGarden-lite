@@ -1,0 +1,7 @@
+<h1>Statistiques</h1>
+
+<ul>
+  <% statCollection.forEach(function(stat){%>
+  <li><%=stat.subject%>: <%=stat.passages%> passage(s)</li>
+  <%});%>
+</ul>
